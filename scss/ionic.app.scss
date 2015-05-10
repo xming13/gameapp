@@ -19,5 +19,60 @@ $dark:                            #444 !default;
 $ionicons-font-path: "../lib/ionic/fonts" !default;
 
 // Include all of Ionic
-@import "www/lib/ionic/scss/ionic";
+@import "www/lib/ionic/scss/ionic"; 
+
+// background color for row in gamelist
+.gamelist .item {
+	&.numbers a {
+    	background-color: #FF8181;
+		
+		img {
+			background-color: #AD0000;
+		}
+  	}
+	
+	&.mushrooms a {
+		background-color: #FFC081;
+		
+		img {
+			background-color: #FFC737;
+		}
+  	}
+	  
+	&.special-one a {
+		background-color: #FFFF81;
+		
+		img {
+			background-color: #B2B271;
+		}
+	}
+	
+	&.squirrel a {
+		background-color: #81FF81;
+		
+		img {
+			background-color: #00CC00;
+		}
+	}
+	
+	&.bunnies a {
+		background-color: #8181FF;
+		
+		img {
+			background-color: #54BFFF;
+		}
+	}
+	
+	&.words a {
+		background-color: #C781FF;
+		
+		img {
+			background-color: #9401FF;	
+		}
+	}
+	
+	.icon.ion-chevron-right {
+		color: #fff;
+	}
+}
 

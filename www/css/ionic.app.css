@@ -7674,3 +7674,30 @@ a.button {
   opacity: 0;
   -webkit-transition-duration: 0s;
   transition-duration: 0s; }
+
+.gamelist .item.numbers a {
+  background-color: #FF8181; }
+  .gamelist .item.numbers a img {
+    background-color: #AD0000; }
+.gamelist .item.mushrooms a {
+  background-color: #FFC081; }
+  .gamelist .item.mushrooms a img {
+    background-color: #FFC737; }
+.gamelist .item.special-one a {
+  background-color: #FFFF81; }
+  .gamelist .item.special-one a img {
+    background-color: #B2B271; }
+.gamelist .item.squirrel a {
+  background-color: #81FF81; }
+  .gamelist .item.squirrel a img {
+    background-color: #00CC00; }
+.gamelist .item.bunnies a {
+  background-color: #8181FF; }
+  .gamelist .item.bunnies a img {
+    background-color: #54BFFF; }
+.gamelist .item.words a {
+  background-color: #C781FF; }
+  .gamelist .item.words a img {
+    background-color: #9401FF; }
+.gamelist .item .icon.ion-chevron-right {
+  color: #fff; }

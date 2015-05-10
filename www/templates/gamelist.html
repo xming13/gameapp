@@ -1,0 +1,12 @@
+<ion-view view-title="Games" class="gamelist">
+  <ion-content>
+    <ion-list>
+      <ion-item class="item-avatar item-icon-right" ng-class="game.class" type="item-text-wrap" ng-repeat="game in gamelist" href="#/app/gamelist/{{game.id}}">
+        <img ng-src="{{game.icon}}"/>
+        <h2>{{game.title}}</h2>
+        <p>{{game.description}}</p>
+        <i class="icon ion-chevron-right icon-accessory"></i>
+      </ion-item>
+    </ion-list>
+  </ion-content>
+</ion-view>

@@ -45,4 +45,51 @@ angular.module('starter.controllers', [])
 })
 
 .controller('PlaylistCtrl', function($scope, $stateParams) {
+})
+
+.controller('GamelistCtrl', function($scope, $stateParams) {
+  $scope.gamelist = [
+    { 
+      id: 1,
+      title: 'Numbers',
+      description: 'Just follow the numbers! Pre-requisite: able to count to 16.',
+      icon: 'img/icon-numbers.png',
+      class: 'numbers'
+    },
+    { 
+      id: 2,
+      title: 'Mushrooms',
+      description: 'Pick as many mushrooms as you can!',
+      icon: 'img/icon-mushrooms.png',
+      class: 'mushrooms'
+    },
+    { 
+      id: 3,
+      title: 'Special One',
+      description: 'Spot the spy who disguised in the crowd!',
+      icon: 'img/icon-special-one.png',
+      class: 'special-one'
+    },
+    { 
+      id: 4,
+      title: 'Squirrel',
+      description: 'Guide the squirrel to collect all the acorns!', 
+      icon: 'img/icon-squirrel.png',
+      class: 'squirrel' 
+    },
+    { 
+      id: 5,
+      title: 'Bunnies',
+      description: 'Match the pairs of bunnies and eggs!',
+      icon: 'img/icon-bunnies.png',
+      class: 'bunnies' 
+    },
+    { 
+      id: 6,
+      title: 'Words',
+      description: 'Find the words from the scattered letters!',
+      icon: 'img/icon-words.png',
+      class: 'words'
+    }
+  ];
 });
